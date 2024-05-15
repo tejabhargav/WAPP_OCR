@@ -1,0 +1,22 @@
+{
+  "type": "import",
+  "name": "wapp_ocr",
+  "version": "1.0.0",
+  "description": "OCR implemented on Whatsapp chatbot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/vision": "^4.2.1",
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.3.5"
+  }
+}
